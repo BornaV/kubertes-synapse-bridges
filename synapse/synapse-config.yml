@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+data:
+  homeserver.yaml: |
+    #Update With Valid Config file
+kind: ConfigMap
+metadata:
+  name: matrix-synapse
+  namespace: matrix
